@@ -1,3 +1,3 @@
 const { RosaCoins } = require('./structurs/RosaCoins')
 client = new RosaCoins(),
-client.login(client.config.token)
+client.login(process.ENV.token)
